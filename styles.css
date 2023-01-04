@@ -71,3 +71,13 @@ body{
 .footer h3{
     font-size: 15px;
 }
+
+/*styling for logos*/
+
+.logo-div{
+    display: flex;
+}
+.logo-img{
+    width: 20px;
+    padding-left: 10px
+}
