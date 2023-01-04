@@ -53,6 +53,17 @@ body{
     color: black;
 }
 
+/*styling for contents*/
+
+.contents{
+    text-align: center;
+    
+    justify-content: center;
+    align-items: centers;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 /*styling for footer*/
 
