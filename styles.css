@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Kanit:wght@200&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0%;
+}
+body{
+    background-color: #F3F3F3 ;
+    font-family: "kanit","Roboto";
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 13rem;
+}
+
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top:15px;
+    padding-left: 10%;
+
+}
+.nav-head h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.nav-links{
+    padding-right: 10%;
+}
+
+.nav-links-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-item{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
